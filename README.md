@@ -23,5 +23,5 @@
 
 ### January 5, 2024
 - Web Development Fundamentals
-  - 10 25-minute pomodoros
-  - total time spent: 5 hours
+  - 12 25-minute pomodoros
+  - total time spent: 6 hours
