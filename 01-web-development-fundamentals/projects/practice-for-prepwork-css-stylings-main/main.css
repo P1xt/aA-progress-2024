@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  font-size: 1.8rem;
+
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #444;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  color: #444;
+  background-color: #ccc;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0;
+  color: #444;
+  background-color: #f9f1de;
+}
+
+.logo {
+  background-size: cover;
+  background-image: url("./logo-emblem-black-1000.png");
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+}
+
+.story-box {
+  max-width: 500px;
+  margin: 70px auto;
+}

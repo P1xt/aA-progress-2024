@@ -1,0 +1,30 @@
+form,
+fieldset {
+  max-width: 450px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+legend {
+  margin-left: 10%;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.row {
+  display: block;
+  margin: 10px 5px;
+}
+
+.column {
+  display: inline-block;
+}
+
+.column * {
+  display: block;
+  width: 100%;
+}
+
+.column--inline {
+  display: inline-block;
+}

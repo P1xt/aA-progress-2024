@@ -2,7 +2,7 @@
 *contains my notes, solutions, projects, etc. corresponding to my work through the App Academy Open curriculum*
 
 ## Progress Checklist
-- [ ] 01-web-development-fundamentals
+- [x] 01-web-development-fundamentals
 - [ ] 02-javascript-fundamentals
 - [ ] 03-intermediate-javascript
 - [ ] 04-tdd-and-oop
@@ -18,3 +18,10 @@
 - [ ] 14-python
 - [ ] 15-flask-sqlalchemy-and-forms
 - [ ] 16-docker-and-microservices
+
+## Log
+
+### January 5, 2024
+- Web Development Fundamentals
+  - 10 25-minute pomodoros
+  - total time spent: 5 hours

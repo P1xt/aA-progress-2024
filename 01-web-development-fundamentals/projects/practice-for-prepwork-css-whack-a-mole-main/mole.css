@@ -1,0 +1,87 @@
+/* Your code here */
+
+/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
+.sb {
+  background-color: cornflowerblue;
+  border-bottom: 1px solid #645ded;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+
+.sb__mole-counter {
+  flex: 1 0 0;
+  text-align: right;
+}
+
+.sb__score-holder {
+  flex: 1 0 0;
+}
+
+.sb__game-over--hidden {
+  display: none;
+}
+
+.pf {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.wgs {
+  position: relative;
+  height: 241px;
+  width: 320px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs__mole-head {
+  color: white;
+  position: absolute;
+  left: 54px;
+  height: 178px;
+  width: 188px;
+  transition: margin-top 0.5s;
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 241px;
+}
+
+@keyframes whackedAnimation {
+  0% {
+    transform: scale(1);
+    border: 25px solid cornflowerblue;
+    padding: 20px;
+  }
+  50% {
+    transform: rotate(180deg);
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(0.25);
+  }
+}
+
+/* whacking a mole:
+    - rotates it
+    - shrinks it
+    - gives it a border the same color as the nav
+    animated over half a second
+*/
+.wgs__mole-head--whacked {
+  box-sizing: border-box;
+  border-radius: 50%;
+  animation: whackedAnimation 0.5s;
+}
+
+.wgs__dirt-pile {
+  position: absolute;
+  top: 131px;
+  height: 110px;
+  width: 320px;
+}
