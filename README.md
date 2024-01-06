@@ -25,3 +25,8 @@
 - Web Development Fundamentals
   - 12 25-minute pomodoros
   - total time spent: 6 hours
+  - Complete (100%)
+- JavaScript Fundamentals
+  - 4 25-minute pomodoros
+  - total time spent (thusfar): 4 hours
+  - Incomplete (33%-ish)
